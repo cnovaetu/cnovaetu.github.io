@@ -1,0 +1,61 @@
+.contact {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.contact h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.card {
+    background-color: #1F1F1F;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.card h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.card a {
+
+    margin: 15px;
+    background-color: #0071e3;
+    color: #FFFFFF;
+    font-size: 16px;
+    padding: 10px 25px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: normal;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card a:hover {
+    background-color: #0081ff;
+}
+
+.card img {
+    width: 32px;
+    height: 32px;
+    margin-right: 10px;
+}

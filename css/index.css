@@ -1,0 +1,66 @@
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.hero .logo {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.hero .tagline {
+    font-size: 18px;
+    font-weight: 300;
+    color: #B0B0B0;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 50px 20px;
+}
+
+.card {
+    background-color: #1F1F1F;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.card h3 {
+    font-size: 24px;
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+
+.card a {
+    display: inline-block;
+    margin: 15px;
+    background-color: #0071e3;
+    color: #FFFFFF;
+    font-size: 16px;
+    padding: 10px 25px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+.card a:hover {
+    background-color: #0081ff;
+}
+
+.card p {
+    font-weight: lighter;
+}
+
